@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		534DE99023C313E20044835F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534DE98F23C313E20044835F /* AppDelegate.swift */; };
-		534DE99223C313E20044835F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534DE99123C313E20044835F /* SceneDelegate.swift */; };
 		534DE99423C313E20044835F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534DE99323C313E20044835F /* ViewController.swift */; };
 		534DE99723C313E20044835F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534DE99523C313E20044835F /* Main.storyboard */; };
 		534DE99923C313E40044835F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 534DE99823C313E40044835F /* Assets.xcassets */; };
 		534DE99C23C313E40044835F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534DE99A23C313E40044835F /* LaunchScreen.storyboard */; };
+		534DE9A423C314290044835F /* RECButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534DE9A323C314290044835F /* RECButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		534DE98C23C313E20044835F /* RECButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RECButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		534DE98F23C313E20044835F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		534DE99123C313E20044835F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		534DE99323C313E20044835F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		534DE99623C313E20044835F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		534DE99823C313E40044835F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		534DE99B23C313E40044835F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		534DE99D23C313E40044835F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		534DE9A323C314290044835F /* RECButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RECButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				534DE98F23C313E20044835F /* AppDelegate.swift */,
-				534DE99123C313E20044835F /* SceneDelegate.swift */,
 				534DE99323C313E20044835F /* ViewController.swift */,
+				534DE9A323C314290044835F /* RECButton.swift */,
 				534DE99523C313E20044835F /* Main.storyboard */,
 				534DE99823C313E40044835F /* Assets.xcassets */,
 				534DE99A23C313E40044835F /* LaunchScreen.storyboard */,
@@ -138,9 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				534DE9A423C314290044835F /* RECButton.swift in Sources */,
 				534DE99423C313E20044835F /* ViewController.swift in Sources */,
 				534DE99023C313E20044835F /* AppDelegate.swift in Sources */,
-				534DE99223C313E20044835F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +287,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77Y3N48SNF;
 				INFOPLIST_FILE = RECButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77Y3N48SNF;
 				INFOPLIST_FILE = RECButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
