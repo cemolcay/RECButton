@@ -1,7 +1,7 @@
 RECButton
 ===
 
-An @IBInspectable record (REC) button for iOS.
+An @IBDesignable record (REC) button for iOS.
 
 * iOS 9.0+
 * Swift 5.0+
