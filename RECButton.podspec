@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   spec.name         = "RECButton"
   spec.version      = "0.0.1"
   spec.summary      = "An @IBInspectable record (REC) button for iOS"
-
+  spec.swift_version = "5.1"
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   An @IBInspectable record (REC) button for iOS.
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/RECButton"
+  spec.homepage     = "https://github.com/cemolcay/RECButton"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
