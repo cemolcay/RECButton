@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KIb-6i-We2" customClass="RECButton" customModule="RECButton" customModuleProvider="target">
-                                <rect key="frame" x="228" y="138" width="124" height="114"/>
+                                <rect key="frame" x="145" y="139" width="124" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="REC"/>
                                 <userDefinedRuntimeAttributes>
